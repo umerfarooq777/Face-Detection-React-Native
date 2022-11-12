@@ -29,6 +29,7 @@ const App = () => {
   };
   return (
     <View style={styles.container}>
+      <Text>Hello World</Text>
       <RNCamera
         ref={cameraRef}
         style={styles.camera}
